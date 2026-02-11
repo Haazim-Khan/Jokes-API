@@ -65,6 +65,10 @@ const jokes = [
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.send("Jokes REST API is live 🚀");
+});
+
 app.get('/random', (req, res)=>{
     let index = Math.floor(Math.random() * jokes.length);
     res.json(jokes[index]);
