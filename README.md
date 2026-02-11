@@ -8,6 +8,17 @@ https://jokes-api-t9b8.onrender.com
 
 ---
 
+## 📊 Data Information
+
+Currently, the API contains **50 pre-defined jokes** stored in memory.
+
+Note:
+- The jokes are not stored in a database.
+- All jokes are maintained in a local array.
+- If the server restarts, newly added jokes will not persist.
+
+---
+
 ## 📌 Available Joke Categories
 
 The API supports the following 10 types:
